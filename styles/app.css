@@ -1,11 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap');
 
-
-
-body {
-    font-family: 'Poppins', Arial, sans-serif;
+:root {
+    --proj-color: #6C63FF;
+    --p-text-color: #272142;
+    --heading-font: 'Playfair Display', Georgia, serif;
+    --main-font: 'Poppins', Arial, sans-serif;
 }
 
-h1,h2,h3 {
-    font-family: 'Playfair Display', Georgia, serif;
+body {
+    font-family: var(--main-font);
+    color: var(--p-text-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: #000;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 128px;
+}
+
+.hero {
+    background-color: #F9F7FE;
+    text-align: center;
+    padding: 160px 0;
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero h2 {
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--p-text-color);
+    line-height: 36px;
+}
+
+.btn-project {
+    color: #fff;
+    background-color: var(--proj-color);
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
 }
