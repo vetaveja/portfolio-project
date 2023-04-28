@@ -84,32 +84,45 @@ img {
 }
 
 
-/* About page */
+/* content */
 
 
-.about {
+.content{
     padding: 160px 0;
 }
 
-.about h1 {
+.content h1 {
     font-size: 64px;
 }
 
-.about h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--main-font);
+    font-weight: bold;
 }
 
-.about p {
+.content h3 {
+    font-size: 24px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+.content p {
     font-size: 16px;
     line-height: 2;
 }
+
+.content img {
+    border-radius: 20px;
+}
+
+
 
 
 
 
 @media (max-width:900px) {
-    .hero,.about {
+    .hero, .content {
         padding: 80px 0;
         text-align: center;
     }
@@ -126,10 +139,10 @@ img {
     .btn {
         width: 100%;
     }
-    .about h1 {
+    .content h1 {
         font-size: 50px;
     }
-    .about .row {
+    .content .row {
         padding: 1%;
     }
    
