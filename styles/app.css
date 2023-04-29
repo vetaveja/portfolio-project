@@ -116,7 +116,41 @@ img {
     border-radius: 20px;
 }
 
+.logo {
+    max-height: 40px;
+    width: auto;
+}
 
+nav {
+    margin: 40px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: medium;
+    font-family: var(--main-font); 
+    line-height: 42px;
+    padding-left: 40px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color:rgba(39, 33, 66, 0.7);
+    transition: all 100ms ease-in-out;
+}
+
+nav li a:hover, nav li a.current {
+    color: var(--proj-color);
+}
 
 
 
@@ -145,5 +179,14 @@ img {
     .content .row {
         padding: 1%;
     }
-   
+    nav {
+        margin: 10px 0;
+    }
+    nav ul {
+        text-align: left;
+    }
+
+    nav li {
+        padding-left: 10px;
+    }
 }
