@@ -49,7 +49,7 @@ footer {
 .hero {
     background-color: #F9F7FE;
     text-align: center;
-    padding: 160px 0;
+    padding: 80px 0;
 }
 
 .hero p {
@@ -97,7 +97,7 @@ footer {
 
 
 .content{
-    padding: 160px 0;
+    padding: 60px 0;
 }
 
 .content h1 {
@@ -123,6 +123,10 @@ footer {
 
 .content img {
     border-radius: 20px;
+}
+
+.content p a {
+    color: var(--proj-color);
 }
 
 .logo {
@@ -213,7 +217,7 @@ nav li a:hover, nav li a.current {
 
 @media (max-width:900px) {
     .hero, .content {
-        padding: 80px 0;
+        padding: 40px 0;
         text-align: center;
     }
     .proj-descr {
@@ -232,6 +236,9 @@ nav li a:hover, nav li a.current {
     .btn {
         width: 100%;
     }
+
+
+
     .content h1 {
         font-size: 50px;
     }
